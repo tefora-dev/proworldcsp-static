@@ -1,7 +1,7 @@
 {
   
   "name": "proworld",
-
+  
   "version": "0.1.0",
   
   "private": true,
@@ -65,7 +65,7 @@
   
     
   "build": "react-scripts build",
-
+  
     
   "test": "react-scripts test",
   
@@ -129,13 +129,6 @@
   
     
   ]
-  
-  },
-  
-  "devDependencies": {
-  
-    
- 
   
   }
 }
