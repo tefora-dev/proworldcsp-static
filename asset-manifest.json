@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/proworldcsp/static/css/main.dc60c12a.css",
+    "main.js": "/proworldcsp/static/js/main.f73dac9f.js",
+    "static/js/787.12238b0a.chunk.js": "/proworldcsp/static/js/787.12238b0a.chunk.js",
+    "static/media/video.mp4": "/proworldcsp/static/media/video.17f0e564c49d49dae69e.mp4",
+    "static/media/features.png": "/proworldcsp/static/media/features.7a68c78685736980847a.png",
+    "static/media/About.png": "/proworldcsp/static/media/About.443aa4af45bbe090de39.png",
+    "static/media/service-banner.png": "/proworldcsp/static/media/service-banner.23ecd40fe3bb81ca7229.png",
+    "static/media/Emiratesid.png": "/proworldcsp/static/media/Emiratesid.9bf6678fe4ac30149f84.png",
+    "static/media/About-Banner.png": "/proworldcsp/static/media/About-Banner.1e317e1bffb6137980f7.png",
+    "static/media/medicalservices.png": "/proworldcsp/static/media/medicalservices.f2ceef8b1a53a6321140.png",
+    "static/media/BusinessSetup.png": "/proworldcsp/static/media/BusinessSetup.c35b1b4af6f57f95bd6a.png",
+    "static/media/proservices.png": "/proworldcsp/static/media/proservices.c32caf11d4652258ce4b.png",
+    "static/media/About-img2.png": "/proworldcsp/static/media/About-img2.9089574f9149926c87cb.png",
+    "static/media/otherservices.png": "/proworldcsp/static/media/otherservices.22bb50d6f6f0301e2bd0.png",
+    "static/media/insuranceservice.png": "/proworldcsp/static/media/insuranceservice.0e79cec02555387ea010.png",
+    "static/media/visaservice.png": "/proworldcsp/static/media/visaservice.8b0201729415c0ff87ac.png",
+    "static/media/attestationservice.png": "/proworldcsp/static/media/attestationservice.d56a10d3c7feeb54dd6f.png",
+    "static/media/conatct-banner.png": "/proworldcsp/static/media/conatct-banner.b0044b0330ea3f3b0285.png",
+    "static/media/logo-1.png": "/proworldcsp/static/media/logo-1.d4c9fb60d01368bc941f.png",
+    "static/media/serviceslogo4.png": "/proworldcsp/static/media/serviceslogo4.5b444015d39225bb1410.png",
+    "index.html": "/proworldcsp/index.html",
+    "main.dc60c12a.css.map": "/proworldcsp/static/css/main.dc60c12a.css.map",
+    "main.f73dac9f.js.map": "/proworldcsp/static/js/main.f73dac9f.js.map",
+    "787.12238b0a.chunk.js.map": "/proworldcsp/static/js/787.12238b0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc60c12a.css",
+    "static/js/main.f73dac9f.js"
+  ]
+}
