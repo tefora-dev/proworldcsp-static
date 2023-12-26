@@ -17,7 +17,7 @@ const LayoutRoutes = () => {
                 <Routes>
                  
                     <Route path='/'element={<Home/>}/>
-                    <Route path='/proworldcsp'element={<Home/>}/>
+                  
                     <Route path='/AboutUs'element={ <About/>}/>
                     <Route path='/Services'  element={<Services/>}/>
                     <Route path='/ContactUs' element={<Contact/>}/>
