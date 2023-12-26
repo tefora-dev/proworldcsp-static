@@ -1,0 +1,87 @@
+.Contact-section{
+    margin: 75px 0;
+
+}
+.Contact-section h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #DAE4EA;
+    outline: none;
+   
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 14px;
+
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* .contact-form .btn {
+    height: 50px;
+    border-radius: 0;
+   background-color: #2D3384;
+   color: white;
+}
+.contact-form .btn:hover {
+    background-color: white;
+    color: #2D3384;
+    border: 2px solid #2D3384;
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+} */
+
+.btn:hover{
+    background: linear-gradient(to right, #555494 0%, #465778 50%, #2e4ca4 50%, #13395f 100%); /* Set initial gradient */
+    background-size: 200% 100%; /* Initial background size */
+    color: #FFF; /* Text color */
+    border: none;
+  
+    cursor: pointer;
+    box-shadow: rgba(2, 6, 84, 0.9) 2px 2px 10px 2px;
+    transition:  0.6s ease-in; /* Transition for smooth effect */
+  }
+  
+  .btn {
+    background-position: -100% 0; 
+    height: 50px;
+    border-radius: 0;
+   background-color: #2D3384;
+   
+   color: white;/* Change background position on hover */
+  }
+  
+
+@media (max-width:996px){
+    iframe{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .Contact-section h2{
+        text-align: center;
+    }
+}
+@media (max-width:576px) {
+    iframe{
+        margin: 25px 0;
+    }
+    .Contact-section h2{
+        font-size: 30px;
+        text-align: center !important;
+    }
+    .Contact-section{
+        margin: 25px 0;
+    }
+    
+}

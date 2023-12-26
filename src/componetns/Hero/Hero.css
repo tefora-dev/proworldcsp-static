@@ -1,0 +1,20 @@
+.Hero-section{
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(to right, rgba(35, 37, 40, 0.5),rgba(35, 37, 40, 0.5));
+    z-index: 1;
+}
+@media (max-width:576px) {
+    video{
+        height:760px;
+    }
+}

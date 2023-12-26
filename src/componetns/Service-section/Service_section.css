@@ -1,0 +1,124 @@
+.Service-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Service-section .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.service-card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #F5F7FC;
+    gap: 14px;
+    margin-bottom: 25px;
+    color: #2D3384;
+
+
+}
+
+.icon .img1, 
+.icon .img2{
+    width: 40px;
+    height: 40px;
+    transition: .3s ease-in-out;
+
+}
+
+.service-card h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.service-card .img2 {
+    display: none;
+}
+
+.service-card:hover {
+    background-color: #2D3384;
+    transition: .3s ease-in-out;
+    color: #F5F7FC;
+    box-shadow: rgba(2, 6, 84, 0.9) 2px 2px 10px 2px;
+}
+
+.service-card:hover .img1 {
+    display: none;
+    transition: .3s ease-in-out;
+
+}
+
+.service-card:hover .img2 {
+    display: block;
+    transition: .3s ease-in-out;
+
+}
+
+
+
+.btn-4:hover{
+    background: linear-gradient(to right, #555494 0%, #465778 50%, #2e4ca4 50%, #13395f 100%); /* Set initial gradient */
+    background-size: 200% 100%; /* Initial background size */
+    color: #FFF; /* Text color */
+    border: none;
+    box-shadow: rgba(2, 6, 84, 0.9) 2px 2px 10px 2px;
+    cursor: pointer;
+    transition:  0.6s ease-in;
+   
+  }
+  
+  .btn-4 {
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+
+    background-position: -100% 0; 
+    
+    border-radius: 0;
+    border: 2px solid #2D3384;
+   background-color:white ;
+   color: #2D3384;/* Change background position on hover */
+  }
+
+
+
+.btn-4 svg {
+    margin-left: 10px;
+}
+
+@media (max-width:996px) {
+    .service-card{
+        padding: 19px;
+    }
+    .service-card h6 {
+        font-size: 13px;
+    }
+}
+@media (max-width:576px) {
+    .section-title h2 {
+        font-size: 30px;
+       text-align: center;
+    }
+    .service-card{
+        padding: 14px;
+    }
+    .service-card h6{
+        font-size: 12px;
+    }
+
+    
+}

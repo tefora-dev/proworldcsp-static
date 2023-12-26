@@ -1,0 +1,28 @@
+.linked h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.linked-image {
+    margin-right: 100px; /* Adjust this value to set the desired gap between images */
+  }
+  .linked-image:last-child {
+    margin-right: 100px; /* Remove margin from the last image to prevent extra space */
+  }
+  @media (max-width:996px) {
+    .linked h2{
+      text-align: center;
+    }
+    
+  }
+  @media (max-width:576px) {
+    .linked h2{
+      font-size: 30px;
+      text-align: center;
+    }
+    .linked-image {
+      margin-right: 20px;
+    }
+    .linked-image:last-child {
+      margin-right: 20px; 
+    }
+  }

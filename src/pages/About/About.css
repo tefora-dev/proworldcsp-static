@@ -1,0 +1,105 @@
+.About-banner {
+    width: 100%;
+    height: 220px;
+    background-image: url(../../assests/images/About-Banner.png);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.home-path{
+    color: white;
+    text-decoration: none;
+
+}
+
+.page-path {
+    color: white;
+}
+
+.About-pages-contents {
+    display: flex;
+    gap: 75px;
+    margin: 75px 0;
+
+}
+
+.About-page-content {
+    flex: 1;
+}
+
+.Aboutimg2 {
+    flex: 1;
+}
+
+.Aboutimg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mission-vision {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 1px solid #9DAEBA;
+}
+
+.misson-contents {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+    padding: 30px;
+}
+
+.mission-title {
+    color: #2D3384;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mission-para {
+    max-width: 370px;
+    color: #6C787B;
+}
+
+@media (max-width:996px) {
+    .About-pages-contents {
+        gap: 35px;
+    }
+    .misson-contents{
+        padding: 10px;
+    }
+}
+@media (max-width:576px) {
+    .About-pages-contents{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+
+    }
+    .About-page-content{
+        text-align: center;
+    }
+    .mission-vision{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 55px;
+    }
+}

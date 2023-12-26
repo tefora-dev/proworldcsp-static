@@ -1,0 +1,59 @@
+.features-section{
+    margin: 75px 0;
+    width: 100%;
+   background-image: url('../../assests/images/features.png');
+   height: 260px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.all-features{
+    width: 100%;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.feature1{
+    color: white;
+    display: flex;
+    gap: 20px;
+    height: 82px;
+    align-items: center;
+}
+.count{
+    font-size: 35px;
+    font-weight: 700;
+}
+.feature-content p{
+    margin-bottom: 0;
+}
+@media (max-width:996px) {
+    .count{
+        font-size: 25px;
+    }
+    .feature-content p{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:576px) {
+    .features-section{
+        height:250px;
+    }
+    .feature1{
+        display: flex;
+        justify-content: center;
+    }
+    .count{
+        font-size: 20px;
+    }
+    .feature1 img{
+        width: 20%;
+    }
+    .feature-content p{
+        font-size: 10px;
+    }
+}
